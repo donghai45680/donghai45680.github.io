@@ -1,0 +1,148 @@
+body{
+    background: #FAEBD7;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    text-align: center;
+    height: 100vh;
+}
+
+.card{
+    background:url("./images/BirthdayBackground.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 70vw;
+    height: 90vh;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 3px  6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.hbd{
+    color: #DEB887;
+    font-size: 10vh;
+    font-family: Garamond, serif;
+}
+
+.lnguyen{
+    color: #E9967A;
+    font-size: 8vh;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.bd{
+    color: #DEB887;
+    font-size: 5vh;
+    font-family: 'Brush Script MT', cursive;
+}
+
+a{
+    font-size: 2.5vh;
+    font-weight: bold;
+    color: #8A2BE2;
+}
+
+.dxc-container{
+    border-style: double;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    background: white;
+    width: 70vw;
+    height: 90vh;
+}
+
+.dxc-header{
+    height: 7%;
+}
+
+.dxc{
+    color: #7a06e7;
+    font-family: Apple Chancery, cursive;
+}
+
+.flex-row{
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.women-day{
+    background-color: pink;
+    width: 50%;
+    height: 40%;
+    background-repeat: no-repeat;
+    padding: 1vw;
+    margin: auto;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    transform: rotate(7deg)
+}
+
+.team-admin{
+    background-color: lightblue;
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    padding: 1vw;
+    margin-left: 4vh;
+    margin-top: 19vh;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    transform: rotate(-5deg)
+}
+
+.rose-apple{
+    background-color: orangered;
+    width: 60%;
+    height: 30%;
+    background-repeat: no-repeat;
+    padding: 1vw;
+    margin: auto;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    transform: rotate(-7deg)
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+h4{
+    color: black;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.wish-container{
+    background-image: url(./images/HappyBirthday3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    width: 70vw;
+    height: 90vh;
+}
+
+.box{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: rgb(255, 0, 81);
+    max-width: 400px;
+    margin: auto;
+    margin-top: 40vh;
+}
+
+.direct-first{
+    font-size: small;
+}
